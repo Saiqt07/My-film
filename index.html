@@ -3,56 +3,227 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Kind of Film</title>
+    <title>My Favorite Films</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="myfilm.css">
-    <script src="https://kit.fontawesome.com/572eff73f2.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="main-nav">
         <ul>
             <li><a href="https://saiqt07.github.io/website/"><i class="fa-solid fa-house"></i> Home</a></li>
-            <li><a href="https://saiqt07.github.io/Bio/"><i class="fa-solid fa-user"></i> BIOGRAPHY</a></li>
+            <li><a href="https://saiqt07.github.io/Bio/"><i class="fa-solid fa-user"></i> Biography</a></li>
             <li><a href="https://saiqt07.github.io/skills/"><i class="fa-solid fa-lightbulb"></i> Skills</a></li>
             <li><a href="https://saiqt07.github.io/Resume/"><i class="fa-solid fa-file"></i> Resume</a></li>
-            <li><a href="https://saiqt07.github.io/photo-dump/"><i class="fa-solid fa-images"></i> Photo Gallery</a></li>
-            <li><a href="https://saiqt07.github.io/My-beats/"><i class="fa-brands fa-spotify"></i> My beats</a></li>
-            <li><a href="https://saiqt07.github.io/My-film/"><i class="fa-solid fa-film"></i> My Film</a></li>
+            <li><a href="https://saiqt07.github.io/photo-dump/"><i class="fa-solid fa-images"></i> Gallery</a></li>
+            <li><a href="https://saiqt07.github.io/My-beats/"><i class="fa-brands fa-spotify"></i> My Beats</a></li>
+            <li class="active"><a href="../MY film/index.html"><i class="fa-solid fa-film"></i> My Film</a></li>
+            <li><a href="../tv shows/index.html"><i class="fa-solid fa-tv"></i> TV Shows</a></li>
+            <li><a href="../bucket list/index.html"><i class="fas fa-list"></i> Bucket List</a></li>
+            <li><a href="../places to visit/index.html"><i class="fa-solid fa-plane"></i> Dream Places</a></li>
         </ul>
     </nav>
+    
     <div class="container">
-        <h1>My Kind of Film</h1>
+        <h1 class="page-title">My Favorite Films</h1>
         
-        <h2><i class="fa-solid fa-tv" style="color: #1e3a5f;"></i> TV Shows</h2>
-        <div class="video-clip">
-            <h3><i class="fa-solid fa-film" style="color: #1e3a5f;"></i> Better Call Saul - Court Scene</h3>
-            <video controls>
-                <source src="film1.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-        <div class="video-clip">
-            <h3><i class="fa-solid fa-film" style="color: #1e3a5f;"></i> Better Call Saul - Final Scene</h3>
-            <video controls>
-                <source src="film2.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-
-        <h2><i class="fa-solid fa-clapperboard" style="color: #1e3a5f;"></i> Movies</h2>
-        <div class="video-clip">
-            <h3><i class="fa-solid fa-film" style="color: #1e3a5f;"></i> 3 Idiots - Funny Scenes</h3>
-            <video controls>
-                <source src="film3.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-        <div class="video-clip">
-            <h3><i class="fa-solid fa-film" style="color: #1e3a5f;"></i> 3 Idiots - Ending</h3>
-            <video controls>
-                <source src="film4.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
+        <!-- Personal Favorites Section -->
+        <section class="category-section">
+            <h2 class="category-title"><i class="fa-solid fa-laugh"></i> Comedy</h2>
+            
+            <div class="media-container">
+                <div class="poster-column">
+                    <img src="https://c8.alamy.com/comp/P4APGH/original-film-title-3-idiots-english-title-3-idiots-film-director-rajkumar-hirani-year-2009-credit-eros-international-media-album-P4APGH.jpg" alt="3 Idiots Poster" class="poster">
+                    <div class="rating">9.3/10</div>
+                </div>
+                
+                <div class="content-column">
+                    <h3 class="media-title">3 Idiots</h3>
+                    
+                    <div class="meta-info">
+                        <span class="meta-item"><i class="fa-solid fa-film"></i> Comedy Film</span>
+                        <span class="meta-item"><i class="fa-solid fa-calendar"></i> 2009</span>
+                        <span class="meta-item"><i class="fa-solid fa-clock"></i> 170 min</span>
+                    </div>
+                    
+                    <hr class="section-divider">
+                    
+                    <h4>Key Scene</h4>
+                    <p class="synopsis">
+                        A hilarious and thought-provoking journey of three engineering students challenging the traditional education system. 
+                        The film explores friendship, passion, and the true meaning of success through comedic and deeply emotional storytelling. 
+                        It critiques the pressure-driven academic environment while celebrating individual dreams and talents.
+                    </p>
+                    
+                    <div class="details">
+                        <span class="detail-label">Director:</span>
+                        <span>Rajkumar Hirani</span>
+                        
+                        <span class="detail-label">Stars:</span>
+                        <span>Aamir Khan, R. Madhavan, Sharman Joshi</span>
+                        
+                        <span class="detail-label">Release Date:</span>
+                        <span>December 25, 2009</span>
+                        
+                        <span class="detail-label">Budget:</span>
+                        <span>₹350 million</span>
+                        
+                        <span class="detail-label">Runtime:</span>
+                        <span>170 minutes</span>
+                    </div>
+                    
+                    <div class="tags">
+                        <span class="tag">Comedy</span>
+                        <span class="tag">Education</span>
+                        <span class="tag">Friendship</span>
+                        <span class="tag">Inspirational</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-player">
+                <h4 class="video-title">Film Highlight</h4>
+                <video controls>
+                    <source src="film1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+        
+        <!-- Existing sections for Demon Slayer and Fast & Furious remain unchanged -->
+        <section class="category-section">
+            <h2 class="category-title"><i class="fa-solid fa-dragon"></i> Anime</h2>
+            
+            <div class="media-container">
+                <div class="poster-column">
+                    <img src="https://m.media-amazon.com/images/M/MV5BODI2NjdlYWItMTE1ZC00YzI2LTlhZGQtNzE3NzA4MWM0ODYzXkEyXkFqcGdeQXVyNjU1OTg4OTM@._V1_.jpg" alt="Demon Slayer Mugen Train Poster" class="poster">
+                    <div class="rating">9.2/10</div>
+                </div>
+                
+                <div class="content-column">
+                    <h3 class="media-title">Demon Slayer: Mugen Train</h3>
+                    
+                    <div class="meta-info">
+                        <span class="meta-item"><i class="fa-solid fa-film"></i> Anime Film</span>
+                        <span class="meta-item"><i class="fa-solid fa-calendar"></i> 2020</span>
+                        <span class="meta-item"><i class="fa-solid fa-clock"></i> 117 min</span>
+                    </div>
+                    
+                    <hr class="section-divider">
+                    
+                    <h4>Key Scene</h4>
+                    <p class="synopsis">
+                        An intense and emotional journey following Tanjiro and his companions as they battle demons on a mysterious train, exploring themes of friendship, sacrifice, and resilience. The film serves as a direct continuation of the Demon Slayer anime series and features some of the most breathtaking animation sequences in anime history.
+                    </p>
+                    
+                    <div class="details">
+                        <span class="detail-label">Director:</span>
+                        <span>Haruo Sotozaki</span>
+                        
+                        <span class="detail-label">Stars:</span>
+                        <span>Natsuki Hanae, Akari Kitō, Yoshitsugu Matsuoka</span>
+                        
+                        <span class="detail-label">Release Date:</span>
+                        <span>October 16, 2020</span>
+                        
+                        <span class="detail-label">Studio:</span>
+                        <span>ufotable</span>
+                        
+                        <span class="detail-label">Runtime:</span>
+                        <span>117 minutes</span>
+                    </div>
+                    
+                    <div class="tags">
+                        <span class="tag">Action</span>
+                        <span class="tag">Fantasy</span>
+                        <span class="tag">Emotional</span>
+                        <span class="tag">Stunning Animation</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-player">
+                <h4 class="video-title">Film Highlight</h4>
+                <video controls>
+                    <source src="film2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+        
+        <section class="category-section">
+            <h2 class="category-title"><i class="fa-solid fa-explosion"></i> Action</h2>
+            
+            <div class="media-container">
+                <div class="poster-column">
+                    <img src="https://m.media-amazon.com/images/I/71ql8kIrPKL.jpg" alt="Fast & Furious: Tokyo Drift Poster" class="poster">
+                    <div class="rating">8.5/10</div>
+                </div>
+                
+                <div class="content-column">
+                    <h3 class="media-title">Fast & Furious: Tokyo Drift</h3>
+                    
+                    <div class="meta-info">
+                        <span class="meta-item"><i class="fa-solid fa-film"></i> Action Film</span>
+                        <span class="meta-item"><i class="fa-solid fa-calendar"></i> 2006</span>
+                        <span class="meta-item"><i class="fa-solid fa-clock"></i> 104 min</span>
+                    </div>
+                    
+                    <hr class="section-divider">
+                    
+                    <h4>Key Scene</h4>
+                    <p class="synopsis">
+                        A high-octane story of an American teenager who learns the art of drift racing in Tokyo, exploring themes of cultural adaptation and personal growth. The film introduced the character Han Lue, who became a fan favorite, and features some of the most impressive drifting sequences in cinema.
+                    </p>
+                    
+                    <div class="details">
+                        <span class="detail-label">Director:</span>
+                        <span>Justin Lin</span>
+                        
+                        <span class="detail-label">Stars:</span>
+                        <span>Lucas Black, Sung Kang, Bow Wow</span>
+                        
+                        <span class="detail-label">Release Date:</span>
+                        <span>June 16, 2006</span>
+                        
+                        <span class="detail-label">Budget:</span>
+                        <span>$85 million</span>
+                        
+                        <span class="detail-label">Runtime:</span>
+                        <span>104 minutes</span>
+                    </div>
+                    
+                    <div class="tags">
+                        <span class="tag">Racing</span>
+                        <span class="tag">Action</span>
+                        <span class="tag">Cultural Exchange</span>
+                        <span class="tag">Drifting</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-player">
+                <h4 class="video-title">Film Highlight</h4>
+                <video controls>
+                    <source src="film3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
     </div>
+    
+    <a href="#top" class="go-top-btn">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
